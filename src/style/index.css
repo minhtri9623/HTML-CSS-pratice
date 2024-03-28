@@ -6,3 +6,6 @@
 @import url(./bases/reset.css);
 @import url(./bases/typography.css);
 @import url(./bases/global.css);
+
+/* layouts */
+@import url(./layouts/index.css);
