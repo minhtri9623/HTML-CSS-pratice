@@ -7,5 +7,11 @@
 @import url(./bases/typography.css);
 @import url(./bases/global.css);
 
+/* components */
+@import url(./components/index.css);
+
 /* layouts */
 @import url(./layouts/index.css);
+
+/* sections */
+@import url(./sections/index.css);
