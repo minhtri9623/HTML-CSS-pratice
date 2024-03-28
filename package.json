@@ -1,0 +1,12 @@
+{
+  "name": "PRC",
+  "version": "1.0.0",
+  "description": "PRC",
+  "main": "index.js",
+  "repository": "https://github.com/minhtri9623/HTML-CSS-pratice.git",
+  "author": "LAPTOP-PK8JHPSO\\ADMIN <linhnhi.2922@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
