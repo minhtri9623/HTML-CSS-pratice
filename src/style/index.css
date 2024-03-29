@@ -1,11 +1,8 @@
 /* abstracts */
-@import url(./abstracts/variables.css);
-
+@import url(./abstracts/index.css);
 
 /* bases */
-@import url(./bases/reset.css);
-@import url(./bases/typography.css);
-@import url(./bases/global.css);
+@import url(./bases/index.css);
 
 /* components */
 @import url(./components/index.css);
