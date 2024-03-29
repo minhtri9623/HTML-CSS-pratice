@@ -1,6 +1,8 @@
 .banner {
-    background: var(--color-secondary);
-    width: 1043px;
+    /* background: var(--color-secondary); */
+    background-image: url(../../assets/image/background-banner.png);
+    background-repeat: no-repeat;
+    width: 100%;
     height: 880px;
     border-radius: 0 0 500px 0;
 }
@@ -9,6 +11,7 @@
     display: flex;
     gap: 58px;
     align-items: center;
+    padding-top: 162px;
     /* position: absolute; */
 }
 
@@ -16,6 +19,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    flex: 1;
 }
 
 .banner-title {
@@ -50,4 +54,14 @@
     width: 24px;
     height: 24px;
     background: var(--color-Wild-Sand);
+}
+
+.banner-imgwrapper {
+    width: 490px;
+    /* height: 640px; */
+}
+
+.banner-img {
+    width: 100%;
+    height: 640px;
 }
