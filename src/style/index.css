@@ -4,5 +4,11 @@
 /* bases */
 @import url(./bases/index.css);
 
+/* components */
+@import url(./components/index.css);
+
 /* layouts */
 @import url(./layouts/index.css);
+
+/* sections */
+@import url(./sections/index.css);
