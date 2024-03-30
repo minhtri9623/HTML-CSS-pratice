@@ -7,6 +7,8 @@
   "author": "LAPTOP-PK8JHPSO\\ADMIN <linhnhi.2922@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "parcel-plugin-prettier": "^0.2.1",
+    "prettier": "3.2.5"
   }
 }

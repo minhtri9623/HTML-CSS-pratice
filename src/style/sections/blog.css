@@ -13,13 +13,13 @@
     gap: 24px;
 }
 
-.company:first-child, .company:last-child{
+.features-column {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.company-row {
+.features-row {
     display: flex;
     gap: 24px;
 }
@@ -30,12 +30,16 @@
     margin-top: 104px;
 }
 
-.gallery-photo, .photo {
+.gallery-wrapper,
+.gallery-column {
     display: flex;
     gap: 24px;
 }
 
-.photo {
+.gallery-column {
     flex-direction: column;
 }
 
+.column-reverse {
+    flex-direction: column-reverse;
+}
