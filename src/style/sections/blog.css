@@ -14,19 +14,13 @@
     gap: 24px;
 }
 
-.company:first-child {
+.features-column {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.company:last-child {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.company-row {
+.features-row {
     display: flex;
     gap: 24px;
 }
@@ -37,14 +31,16 @@
     margin-top: 104px;
 }
 
-.gallery-photo {
+.gallery-wrapper,
+.gallery-column {
     display: flex;
     gap: 24px;
 }
 
-.photo {
-    display: flex;
+.gallery-column {
     flex-direction: column;
-    gap: 24px;
 }
 
+.column-reverse {
+    flex-direction: column-reverse;
+}
