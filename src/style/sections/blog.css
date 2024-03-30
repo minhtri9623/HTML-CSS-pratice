@@ -1,0 +1,45 @@
+.blog {
+    margin-top: 104px;
+}
+
+/* features  */
+
+.features {
+    margin-bottom: 104px;
+}
+
+.features-frame {
+    display: flex;
+    gap: 24px;
+}
+
+.features-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.features-row {
+    display: flex;
+    gap: 24px;
+}
+
+/* ----------------------------------------------- */
+
+.gallery {
+    margin-top: 104px;
+}
+
+.gallery-wrapper,
+.gallery-column {
+    display: flex;
+    gap: 24px;
+}
+
+.gallery-column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
