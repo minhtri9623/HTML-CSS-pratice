@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     padding: 41px 0;
-    display: flex;
     align-items: center;
 }
 
@@ -38,9 +37,9 @@
     transition: 0.5s all ease;
 }
 
-.menu-link:first-child {
+/* .menu-link:hover:first-child {
     font-weight: var(--font-weight-bold);
-}
+} */
 
 .menu-link:hover {
     color: var(--color-primary);
@@ -57,6 +56,11 @@
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-sm);
+}
+
+.line {
+    width: 2px;
+    background: var(--color-Alto);
 }
 
 .btn-block:last-child {
